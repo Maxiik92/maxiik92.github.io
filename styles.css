@@ -1,0 +1,73 @@
+html{
+        background-image: url(assets/topography.webp);
+        scroll-behavior: smooth;
+        background-attachment: fixed; 
+            }
+h1,h2,h3{
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+a, p, dl{
+    font-family: 'Courier Prime', monospace;
+}
+
+nav{
+    background-color: #333333;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 50px;
+    padding: 10% ;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+
+a, h3{
+    color: #ff0099;
+    }
+a:hover{
+    color: #902e69;
+}
+nav a{
+    position: center;
+    text-align: center;
+    padding: 14px 16px;
+   }
+h3{
+    display: block;
+    font-size: 25px;
+    padding-left: 10%;
+}
+#aboutme p, dl{
+    padding:0 10%;
+}
+#aboutme p, dd{
+    font-size: 20px;
+}
+h2, #separator{
+    text-align: center;
+    font-size: 35px;
+    padding-left: 0;
+}
+dt{
+    font-size: 25px;
+    font-weight: bold;
+}
+body{
+    margin-left: 0;
+    margin-right:0;
+   }
+
+#logo{
+     position: absolute;
+     left: 10%;
+}
+#linkedin{
+    padding-right: 10%;
+}
